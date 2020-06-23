@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 
 @Service
-public class GameService {
+public class GuessGameService {
     private GuessNumberGame guessNumberGame;
     Map<String, CalculateScore> userInfoMap = new HashMap<>();
     private CalculateScore calculateScore;
