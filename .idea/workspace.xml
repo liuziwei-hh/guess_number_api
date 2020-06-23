@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9bee7f35-f7d3-4f31-a926-f72394fddcee" name="Default Changelist" comment="" />
+    <list default="true" id="9bee7f35-f7d3-4f31-a926-f72394fddcee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/guess_number_api/src/test/java/com/twschool/practice/controller/GuessGameControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guess_number_api/src/test/java/com/twschool/practice/domain/GameControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/guess_number_api/src/test/java/com/twschool/practice/domain/GuessGameControllerTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/guess_number_api/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,25 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guess_number_api/src/main/java/com/twschool/practice/domain/GuessNumberGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-              <folding>
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#1521#1522#0" expanded="true" />
-                <element signature="e#1106#1107#0" expanded="true" />
-                <element signature="e#1137#1138#0" expanded="true" />
-                <element signature="e#1174#1175#0" expanded="true" />
-                <element signature="e#1203#1204#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guess_number_api/src/main/java/com/twschool/practice/GuessNumberGameSpringBootApplication.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/jdk8/jdk8/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
+            <state relative-caret-position="20387">
               <caret line="1133" selection-start-line="1133" selection-end-line="1133" />
             </state>
           </provider>
@@ -91,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guess_number_api/src/test/java/com/twschool/practice/domain/CalculateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="171">
               <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -104,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/guess_number_api/src/main/java/com/twschool/practice/domain/Answer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -112,21 +98,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guess_number_api/src/main/java/com/twschool/practice/controller/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="18" column="50" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="51" />
+            <state relative-caret-position="323">
+              <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#714#730#0" expanded="true" />
+                <element signature="e#839#855#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/guess_number_api/src/test/java/com/twschool/practice/controller/GuessGameControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1387">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guess_number_api/src/main/java/com/twschool/practice/service/GameService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="48" column="73" selection-start-line="48" selection-start-column="73" selection-end-line="48" selection-end-column="73" />
+            <state relative-caret-position="722">
+              <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,6 +141,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -157,6 +158,8 @@
         <option value="$PROJECT_DIR$/guess_number_api/src/main/java/com/twschool/practice/domain/GuessNumberGame.java" />
         <option value="$PROJECT_DIR$/guess_number_api/src/main/java/com/twschool/practice/domain/Answer.java" />
         <option value="$PROJECT_DIR$/guess_number_api/src/main/java/com/twschool/practice/service/GameService.java" />
+        <option value="$PROJECT_DIR$/guess_number_api/src/test/java/com/twschool/practice/controller/GameControllerTest.java" />
+        <option value="$PROJECT_DIR$/guess_number_api/src/test/java/com/twschool/practice/controller/GuessGameControllerTest.java" />
       </list>
     </option>
   </component>
@@ -166,18 +169,18 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="21" />
     <option name="width" value="1614" />
     <option name="height" value="1029" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,35 +231,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guess_number_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guess_number_api" type="462c0819:PsiDirectoryNode" />
-              <item name="guess_number_api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guess_number_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guess_number_api" type="462c0819:PsiDirectoryNode" />
-              <item name="guess_number_api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guess_number_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guess_number_api" type="462c0819:PsiDirectoryNode" />
-              <item name="guess_number_api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guess_number_api" type="b2602c69:ProjectViewProjectNode" />
@@ -265,10 +240,48 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="guess_number_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guess_number_api" type="462c0819:PsiDirectoryNode" />
+              <item name="guess_number_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guess_number_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guess_number_api" type="462c0819:PsiDirectoryNode" />
+              <item name="guess_number_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guess_number_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guess_number_api" type="462c0819:PsiDirectoryNode" />
+              <item name="guess_number_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guess_number_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guess_number_api" type="462c0819:PsiDirectoryNode" />
+              <item name="guess_number_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,8 +291,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592400961423" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/guess_number_api/pom.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592880776883" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1592300994877-a7f92162-2522-453c-9f7c-fca6027bd138/guess_number" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -329,12 +342,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592379788590</updated>
-      <workItem from="1592379790000" duration="16461000" />
+      <workItem from="1592379790000" duration="16734000" />
+      <workItem from="1592469979363" duration="620000" />
+      <workItem from="1592552632479" duration="385000" />
+      <workItem from="1592879577563" duration="1188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16461000" />
+    <option name="totallyTimeSpent" value="18927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -346,9 +362,8 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.28860146" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.3257882" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
@@ -358,11 +373,12 @@
       <window_info anchor="bottom" id="Spring" order="6" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.07777778" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.077922076" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Database" order="2" />
@@ -400,14 +416,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guess_number_api/src/test/java/com/twschool/practice/api/apiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guess_number_api/src/test/java/com/twschool/practice/domain/GameControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/guess_number_api/src/test/java/com/twschool/practice/api/apiTest.java" />
+    <entry file="file://$PROJECT_DIR$/guess_number_api/src/test/java/com/twschool/practice/domain/GuessGameControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="17" column="31" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="31" />
@@ -465,10 +475,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guess_number_api/src/main/java/com/twschool/practice/domain/UserInfo.java">
+    <entry file="file://$PROJECT_DIR$/guess_number_api/src/main/java/com/twschool/practice/domain/UserInfo.java" />
+    <entry file="file://$PROJECT_DIR$/guess_number_api/src/main/java/com/twschool/practice/domain/GuessNumberGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="247">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1521#1522#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -483,21 +500,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guess_number_api/src/main/java/com/twschool/practice/console/ConsoleInputReader.java">
+    <entry file="jar://D:/jdk8/jdk8/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="20387">
+          <caret line="1133" selection-start-line="1133" selection-end-line="1133" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guess_number_api/src/main/java/com/twschool/practice/controller/GameController.java">
+    <entry file="file://$PROJECT_DIR$/guess_number_api/src/main/resources/application.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#714#730#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -518,39 +531,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guess_number_api/src/main/resources/application.yaml">
+    <entry file="file://$PROJECT_DIR$/guess_number_api/src/main/java/com/twschool/practice/console/ConsoleInputReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guess_number_api/src/main/java/com/twschool/practice/domain/GuessNumberGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#1521#1522#0" expanded="true" />
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1137#1138#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1203#1204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guess_number_api/src/main/java/com/twschool/practice/domain/Answer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guess_number_api/src/test/java/com/twschool/practice/domain/CalculateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="171">
           <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -558,17 +548,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/jdk8/jdk8/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+    <entry file="file://$PROJECT_DIR$/guess_number_api/src/main/java/com/twschool/practice/domain/Answer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="1133" selection-start-line="1133" selection-end-line="1133" />
+        <state relative-caret-position="247">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guess_number_api/src/main/java/com/twschool/practice/service/GameService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="48" column="73" selection-start-line="48" selection-start-column="73" selection-end-line="48" selection-end-column="73" />
+        <state relative-caret-position="722">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guess_number_api/src/main/java/com/twschool/practice/controller/GameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#839#855#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guess_number_api/src/test/java/com/twschool/practice/controller/GuessGameControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1387">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
