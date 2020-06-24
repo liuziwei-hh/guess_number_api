@@ -1,37 +1,37 @@
 package com.twschool.practice.domain;
 
 public class CalculateScore {
-private int userScore;
-private int successTimes;
+    private static final int INIT_WIN_BOUNS_COUNT = 0;
+    private static final int ONCE_ADD_STEP = 3;
+    private static final int ONCE_SUB_STEP = -3;
+    private static final int THREE_TIMES_WIN_BOUNS_COUNT = 3;
+    private static final int THREE_TIMES_WIN_BOUNS_POINT = 2;
+    private static final int FIVE_TIMES_WIN_BOUNS_COUNT = 5;
+    private static final int FIVE_TIMES_WIN_BOUNS_POINT = 3;
 
-    public CalculateScore(int userScore, int successTimes) {
-        userScore = userScore;
-        this.successTimes = successTimes;
+    private int sucessTimes = INIT_WIN_BOUNS_COUNT;
+
+    private int score;
+
+    public int getScore() {
+        return score;
     }
 
-    public int getUserScore() {
-        return userScore;
+    public void setScore(int score) {
+        this.score = score;
     }
 
-    public void setUserScore(int userScore) {
-        this.userScore = userScore;
+    public void increaseScore() {
+        this.score += ONCE_ADD_STEP;
+        if (++sucessTimes == THREE_TIMES_WIN_BOUNS_COUNT) {
+            this.score += THREE_TIMES_WIN_BOUNS_POINT;
+        } else if (sucessTimes == FIVE_TIMES_WIN_BOUNS_COUNT) {
+            this.score += FIVE_TIMES_WIN_BOUNS_POINT;
+            this.sucessTimes = INIT_WIN_BOUNS_COUNT;
+        }
     }
 
-    public int getSuccessTimes() {
-        return successTimes;
-    }
-
-    public void setSuccessTimes(int successTimes) {
-        this.successTimes = successTimes;
-    }
-
-    public int calculate() {
-       if (successTimes % 3 == 0) {
-           userScore += 2;
-       }
-       if (successTimes % 5 == 0) {
-           userScore += 3;
-       }
-       return userScore;
-   }
-}
+    public void decreaseScore() {
+        this.score += ONCE_SUB_STEP;
+        this.sucessTimes = INIT_WIN_BOUNS_COUNT;
+    }}

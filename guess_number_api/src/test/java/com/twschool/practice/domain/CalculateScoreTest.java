@@ -4,8 +4,10 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
+import org.junit.Assert;
+import org.junit.Test;
 
-public class CalculateTest {
+public class CalculateScoreTest {
     @Test
     public void should_return_2_when_input_1234_given_answer_1234() {
         Answer answer = new Answer(Arrays.asList("1", "2", "3", "4"));
