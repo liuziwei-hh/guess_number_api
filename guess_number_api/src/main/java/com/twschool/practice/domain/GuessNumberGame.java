@@ -37,7 +37,6 @@ public class GuessNumberGame {
         String result = answer.check(userAnswerNumbers);
         decreaseTryTimes();
         modifyStatus(result);
-        printScore();
         return result;
     }
 
@@ -52,9 +51,6 @@ public class GuessNumberGame {
         }
     }
 
-    private void printScore() {
-        calculateScore.calculate();
-    }
 
     private void decreaseTryTimes() {
         leftTryTimes--;

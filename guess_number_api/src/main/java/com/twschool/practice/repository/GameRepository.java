@@ -11,11 +11,11 @@ public class GameRepository {
 
     private static final Map<String, GuessNumberGame> gameRepository = new HashMap<>();
 
-    public void set(String id, GuessNumberGame guessNumberGame) {
-        gameRepository.put(id, guessNumberGame);
+    public void set(String userId, GuessNumberGame guessNumberGame) {
+        gameRepository.put(userId, guessNumberGame);
     }
 
-    public GuessNumberGame get(String id) {
-        return gameRepository.get(id);
+    public GuessNumberGame get(String userId) {
+        return gameRepository.get(userId);
     }
 }

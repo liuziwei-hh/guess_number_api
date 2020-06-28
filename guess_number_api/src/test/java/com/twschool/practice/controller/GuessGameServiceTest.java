@@ -19,7 +19,7 @@ public class GuessGameServiceTest {
         Mockito.when(randomAnswerGenerator.generateAnswer()).thenReturn(new Answer(Arrays.asList(new String[]{"1", "2", "3", "4"})));
         GuessNumberGame guessNumberGame = new GuessNumberGame(randomAnswerGenerator);
         GuessGameService guessGameService = new GuessGameService();
-        Map<String, Object> result = guessGameService.guess("1111","1 2 3 4");
+        String result = guessGameService.guess("1111","1 2 3 4");
         Assert.assertEquals(result, "4A0B");
     }
 }
